@@ -5150,7 +5150,7 @@ var mainGC = function () {
         '                        <img title="${LogType}" alt="${LogType}" src="/images/logtypes/${LogTypeImage}">&nbsp;${LogType}</strong></div>' +
         '                <div class="HalfRight AlignRight">' +
         '                    <span class="minorDetails LogDate">${Visited}</span></div>' +
-        '                <div class="Clear LogContent">' +
+        '                <div class="Clear LogContent markdown-output">' +
         '                    {{if LatLonString.length > 0}}' +
         '                    <strong>${LatLonString}</strong>' +
         '                    {{/if}}' +
